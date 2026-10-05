@@ -10,8 +10,8 @@
 192.168.45.2
 1521
 XEPDB1
-USERSTK7
-PwUserStk7
+USER****
+Pw*******
 
 # 로그인정보
 guest01
