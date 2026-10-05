@@ -1,0 +1,31 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-request: true
+      force-response: true
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//192.168.45.2:1521/XEPDB1
+    username: USERSTK7
+    password: PwUserStk7
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 5
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+
+app:
+  jwt:
+    secret: board-crud-tutorial-jwt-secret-key-2026
+    expiration-ms: 3600000
