@@ -1,0 +1,11 @@
+node_modules/
+dist/
+target/
+.env
+.env.local
+*.log
+playwright-report/
+test-results/
+.idea/
+.vscode/
+*.tsbuildinfo

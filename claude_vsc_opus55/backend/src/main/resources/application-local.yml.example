@@ -1,0 +1,6 @@
+# 이 파일을 application-local.yml 로 복사한 뒤 접속정보를 채운다.
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//<HOST>:1521/XEPDB1
+    username: <DB_USER>
+    password: <DB_PASSWORD>

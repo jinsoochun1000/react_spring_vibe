@@ -1,3 +1,36 @@
+
+-- Rev.2
+
+#CRUD Tutorial 바이브 코딩 
+
+# 테크 스택 
+- FRONT: React
+- BACK: Java Spring Boot
+- DB: ORACLE 18C XE (개발서버보유, 로그인가능) 
+* 이 테크 스텍보다 좋은 제안이 있으면 말해줘.
+
+# DB접속정보
+- 192.168.45.2
+- 1521
+- XEPDB1
+- USERSTK6
+- PwUserStk6
+
+# 로그인정보
+- guest01
+- password123!
+
+# 기본테이블
+- TB_USER
+- TB_POST 
+
+# 기타 
+- 한글코드 UTF-8 
+- 개발결과 요약(상세) 내용은 개발자 가이드 용도로 README.md 파일 작성
+
+---
+
+
 #CRUD Tutorial 바이브 코딩 
 
 # 스킬 스택 
@@ -10,8 +43,8 @@
 - 192.168.45.2
 - 1521
 - XEPDB1
-- USER****
-- Pw*******
+- USERSTK6
+- PwUserStk6
 
 # 로그인정보
 - guest01
