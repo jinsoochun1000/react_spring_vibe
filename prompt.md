@@ -13,8 +13,8 @@
 - 192.168.45.2
 - 1521
 - XEPDB1
-- USERSTK6
-- PwUserStk6
+- USER******
+- PwUser*****
 
 # 로그인정보
 - guest01
@@ -43,8 +43,8 @@
 - 192.168.45.2
 - 1521
 - XEPDB1
-- USERSTK6
-- PwUserStk6
+- USERS******
+- PwUser******
 
 # 로그인정보
 - guest01
