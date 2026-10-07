@@ -1,0 +1,9 @@
+# 복사해서 application-local.yml 로 만든 뒤 값을 채운다 (git 제외 대상)
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//<HOST>:1521/<SERVICE>
+    username: <USER>
+    password: <PASSWORD>
+app:
+  jwt:
+    secret: <32바이트 이상 임의 문자열>
